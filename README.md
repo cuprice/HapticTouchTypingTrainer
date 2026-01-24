@@ -1,6 +1,13 @@
 ## タイピング練習用キーボード基板 Typing Haptic Trainer (Prototype)
 
 ![基板写真](images/trainer-v5.jpg)
+![キーキャップ](images/keycap.jpg)
+
+2026.1.24
+3Dプリンターを購入して、試しに特定のキーだけキーキャップをはめ込み式に変えました。あと、この先の予定としては、ダイオードや抵抗を表面実装に変更したものを作るつもりです。
+
+I bought a 3D printer and tried changing only some keycaps to a snap-on type.
+Next, I plan to make a version with surface-mounted diodes and resistors.
 
 2025.11.25
 Githubに公開してから数ヶ月経ちました。それ以来、触覚を利用したタッチタイピングの練習機械が他にもあることを知り、私のウェブ検索が十分でなかったと申し訳なく思いました。他の人々の作る機械はとても複雑でレベルの高いことも知り、私はまだまだ勉強不足であると思いました。もしお嫌でなければ、学習の活動を見守っていただければ幸いです。
