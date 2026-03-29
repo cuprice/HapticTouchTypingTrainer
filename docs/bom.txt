@@ -3,9 +3,11 @@ Arduino Nano Every	A1	        1	マイクロコントローラー
 Buzzer	                BZ1	        1	ブザー
 1N4148	                D1 〜 D30	30	スイッチのマトリックス用ダイオード
 LED	                D100, D101	2	インジケーターLED
-Motor DC              	M1 〜 M8	        8	DCモーター
+TerminalBlock       M1 〜 M8	8	ターミナルブロック5mmピッチ
+Motor               M1 〜 M8    8   DCDCモーター
 10k	                R1 〜 R12	12	抵抗 (10kΩ)
 330	                R13, R14	2	抵抗 (330Ω, LED電流制限用)
-cherry mx switch	SW1 〜 SW30	30	Cherry MX互換キースイッチ
+Cherry mx switch	SW1 〜 SW30	30	Cherry MX互換キースイッチ
+Switch Socket   	SW1 〜 SW30	30	Cherry MX互換キーソケット
 2pin button	        SW100, SW101	2	2ピンのタクトスイッチなど
 MCP23017_SP	        U2	        1	I/Oエキスパンダー

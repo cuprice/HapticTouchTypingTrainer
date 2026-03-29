@@ -1,0 +1,25 @@
+20pin connector			
+(TypingTrainer)          (Arduino)	
+1pin  -----------------> 2pin	digital
+2pin  -----------------> 3pin	digital
+3pin  -----------------> 4pin	digital
+4pin  -----------------> 5pin	digital
+5pin  -----------------> 6pin	digital
+6pin  -----------------> 7pin	digital
+7pin  -----------------> 8pin	digital
+8pin  -----------------> 9pin	digital
+9pin  -----------------> 10pin	digital
+10pin -----------------> 11pin	digital
+11pin -----------------> 12pin	digital
+12pin -----------------> A0	analog
+13pin -----------------> 13pin	digital
+14pin -----------------> n/a	
+15pin -----------------> n/a	
+16pin -----------------> A2	analog
+17pin -----------------> A1	analog
+18pin -----------------> A5	analog
+19pin -----------------> A4	analog
+20pin -----------------> 5V	
+			
+2pin connector --------> GND	
+

@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "buzzer")(type "KiCad")(uri "C:/0-KiCadProject/000/buzzer.pretty")(options "")(descr ""))
-)

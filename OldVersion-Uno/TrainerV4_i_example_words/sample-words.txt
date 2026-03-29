@@ -1,0 +1,6 @@
+このスケッチプログラムは、以下の例文を元に押す順番が指定されています。
+
+This sketch program has a specified button-press order based on the following example sentences.
+
+siroi kumo aoi sora umi kara fuku kaze
+白い雲、青い空、海から吹く風
