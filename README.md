@@ -3,10 +3,10 @@
 ![基板写真](images/v5smd-top.jpg)
 
 2026.3.29
-自分で半田付けする時間を減らすために、基板部品実装サービスを利用することにしました。そして、抵抗とダイオードを表面実装タイプに変えて、裏面にターミナルブロックとキースイッチソケットを追加しました。
+自分で半田付けする時間を減らすために、基板部品実装サービスを利用することにしました。そして、抵抗とダイオードを表面実装タイプに変えて、裏面にターミナルブロックとキースイッチソケットを追加しました。そして、アクティブブザーからパッシブブザーへ変えました。
 
 I decided to use a PCB assembly service to reduce the time I spend soldering by myself.
-I also changed the resistors and diodes to surface-mount types, and added terminal blocks and key switch sockets on the back side.
+I also changed the resistors and diodes to surface-mount types, and added terminal blocks and key switch sockets on the back side ,and I changed the active buzzer to a passive buzzer.
 
 # はじめに
 
@@ -117,7 +117,7 @@ TypingTrainer/
 | Value               | Reference      | Qty | 備考                                           | 画像 |
 |---------------------|----------------|-----|------------------------------------------------|------|
 | Arduino Nano Every  | A1             | 1   | マイクロコントローラー（ソケットピン経由で実装） |  |
-| Buzzer              | BZ1            | 1   | ブザー                                         | <img src="images/buzzer.jpg" width="60"> |
+| Passive Buzzer      | BZ1            | 1   | パッシブブザー                                         | <img src="images/buzzer.jpg" width="60"> |
 | 1N4148              | D1 〜 D30      | 30  | スイッチのマトリックス用ダイオード             | <img src="images/diode.jpg" width="60"> |
 | LED                 | D100, D101     | 2   | インジケーターLED                              | <img src="images/led.jpg" width="60"> |
 | Motor DC            | M1 〜 M8       | 8   | DCモーター                                     | <img src="images/motor.jpg" width="60"> |
