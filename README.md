@@ -76,7 +76,9 @@ For keys that do not have a vibration motor, the device changes the length of th
 TypingTrainer/
     ├── TYPING-TRAINER-V5-SMD/ # KiCad設計ファイル
     ├── TYPING-TRAINER-V5-SMD.zip # ガーバーデータ（基板製造用）
-    ├── TrainerV5-smd/ # Arduinoスケッチ
+    ├── TrainerV5-smd/ # Arduinoスケッチ 通常版
+    ├── TrainerV5-smd2/ # Arduinoスケッチ 切替式例文プリセットタイプ
+    ├── numorder.py # キーの順番を決めるPythonスクリプト
     ├── keycap.stl # 3Dプリンタ用、穴有りキャップ
     ├── images/ # 写真・完成図
     ├── docs/ # 部品表・座標データなど
