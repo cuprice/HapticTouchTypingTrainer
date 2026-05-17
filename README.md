@@ -1,12 +1,14 @@
-## タイピング練習用キーボード基板 Typing Haptic Trainer (Prototype)
+## タイピング練習用キーボード基板 Haptic Touch Typing Trainer (Prototype)
 
 ![基板写真](images/v5smd-top.jpg)
+![基板写真](images/short-gif.gif)
 
-2026.3.29
-自分で半田付けする時間を減らすために、基板部品実装サービスを利用することにしました。そして、抵抗とダイオードを表面実装タイプに変えて、裏面にターミナルブロックとキースイッチソケットを追加しました。そして、アクティブブザーからパッシブブザーへ変えました。
+# これは何？
+What is this?
 
-I decided to use a PCB assembly service to reduce the time I spend soldering by myself.
-I also changed the resistors and diodes to surface-mount types, and added terminal blocks and key switch sockets on the back side ,and I changed the active buzzer to a passive buzzer.
+A haptic and audio-guided touch typing trainer that tells you which key to press next through vibration and sound — no need to look at your hands.
+
+振動と音で次に押すべきキーを知らせる、触覚と聴覚を使ったタッチタイピング練習機です。
 
 # はじめに
 
