@@ -10,6 +10,17 @@ A haptic and audio-guided touch typing trainer that tells you which key to press
 
 振動と音で次に押すべきキーを知らせる、触覚と聴覚を使ったタッチタイピング練習機です。
 
+2026.9.12 update
+
+タッチタイピング練習基板の別バージョンを作ってみました。
+なるべく自分ではんだ付けをしないようにするためにsmd品を取り入れて、RP2040zeroを実装しました。
+そしてスイッチプレートを試しに3dプリンターで作りました。
+
+I made another version of my touch typing practice board.
+I used some SMD parts and added an RP2040-Zero so that I would not have to do too much soldering myself.
+I also tried making a switch plate with a 3D printer.
+![基板写真](images/rp2040zero.jpg)
+
 # はじめに
 
 このリポジトリは回路・プログラミング初学者の学習用です。あたたかく見守っていただけると嬉しいです。
