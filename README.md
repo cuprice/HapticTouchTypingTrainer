@@ -10,16 +10,11 @@ A haptic and audio-guided touch typing trainer that tells you which key to press
 
 振動と音で次に押すべきキーを知らせる、触覚と聴覚を使ったタッチタイピング練習機です。
 
-2026.9.12 update
+2026.9.22 updated
 
-タッチタイピング練習基板の別バージョンを作ってみました。
-なるべく自分ではんだ付けをしないようにするためにsmd品を取り入れて、RP2040zeroを実装しました。
-そしてスイッチプレートを試しに3dプリンターで作りました。
+[ビルドガイド](BUILDGUIDE.md)を作成
 
-I made another version of my touch typing practice board.
-I used some SMD parts and added an RP2040-Zero so that I would not have to do too much soldering myself.
-I also tried making a switch plate with a 3D printer.
-![基板写真](images/rp2040zero.jpg)
+I made a [build guide](BUILDGUIDE.md).
 
 # はじめに
 
@@ -98,6 +93,7 @@ TypingTrainer/
     ├── OldVersion-Uno # 旧バージョン、Uno用
     ├── OldVersion-Nano # 旧バージョン、Nano用
     └── README.md # このファイル
+    └── BUILDGUIDE.md # ビルドガイド
 
 ~~~
 
@@ -124,6 +120,8 @@ TypingTrainer/
 2. 回路図などを見ながら部品を実装
 3. Arduino Nano EveryをUSBケーブルでPCと接続
 4. PCからArduinoへ、ファームウェアを書き込み
+
+組み立ての際は、[ビルドガイド](BUILDGUIDE.md)を参照してください。
 
 ---
 
@@ -180,7 +178,7 @@ A.
 ## 注意事項
 
 - 初心者が学びながら作ったものなので、不完全な点もあるかもしれません。
-- Arduinoスケッチの一部のコード作成に、生成AI（ChatGPT）を補助的に活用しました。
+- Arduinoスケッチのコード作成に、生成AI（ChatGPT）を補助的に活用しました。
 
 ---
 
@@ -190,6 +188,13 @@ A.
 
 ---
 
-# 今後の予定
-- キーを押す順番の配列を簡単に作るツール
-- 製作手順のガイドを作る
+## おまけ
+
+タッチタイピング練習基板の別バージョンを作ってみました。
+なるべく自分ではんだ付けをしないようにするためにsmd品を取り入れて、RP2040zeroを実装しました。
+そしてスイッチプレートを試しに3Dプリンターで作りました。
+
+I made another version of my touch typing practice board.
+I used some SMD parts and added an RP2040-Zero so that I would not have to do too much soldering myself.
+I also tried making a switch plate with a 3D printer.
+![基板写真](images/rp2040zero.jpg)
