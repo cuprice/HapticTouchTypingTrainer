@@ -10,11 +10,13 @@ A haptic and audio-guided touch typing trainer that tells you which key to press
 
 振動と音で次に押すべきキーを知らせる、触覚と聴覚を使ったタッチタイピング練習機です。
 
-2026.9.22 updated
+[ビルドガイド](BUILDGUIDE.md)を作りましたのでご覧ください。
 
-[ビルドガイド](BUILDGUIDE.md)を作成
+[おまけ](#おまけ)の項目にはSMDをできるだけ使用したバージョンのデータがあります。
 
 I made a [build guide](BUILDGUIDE.md).
+
+There is a version that uses as many SMD parts as possible in the [Extras section](#おまけ).
 
 # はじめに
 
@@ -92,8 +94,9 @@ TypingTrainer/
     ├── docs/ # 部品表・座標データなど
     ├── OldVersion-Uno # 旧バージョン、Uno用
     ├── OldVersion-Nano # 旧バージョン、Nano用
-    └── README.md # このファイル
-    └── BUILDGUIDE.md # ビルドガイド
+    ├── README.md # このファイル
+    ├── BUILDGUIDE.md # ビルドガイド
+    └── Haptic Touch Typing Trainer SMD-package/ # SMD版データ
 
 ~~~
 
@@ -191,10 +194,13 @@ A.
 ## おまけ
 
 タッチタイピング練習基板の別バージョンを作ってみました。
-なるべく自分ではんだ付けをしないようにするためにsmd品を取り入れて、RP2040zeroを実装しました。
+なるべく自分ではんだ付けをしないようにするためにSMD品を取り入れて、RP2040zeroを実装しました。
 そしてスイッチプレートを試しに3Dプリンターで作りました。
 
 I made another version of my touch typing practice board.
 I used some SMD parts and added an RP2040-Zero so that I would not have to do too much soldering myself.
 I also tried making a switch plate with a 3D printer.
+
+[SMD版ビルドガイド](HapticTouchTypingTrainerSMD-package/HapticTouchTypingTrainerSMD.md)
+
 ![基板写真](images/rp2040zero.jpg)
